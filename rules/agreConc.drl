@@ -1,0 +1,35 @@
+package  com.pois.lab1
+
+import com.pois.lab1.data.TariffPlan;
+import com.pois.lab1.data.Consumer;
+import com.pois.lab1.data.Company;
+
+dialect "java"
+
+global Interaction interaction;
+
+rule "agreement conclusion"
+    when
+        consumer: Consumer()
+        tariffPlan: TariffPlan()
+        company: Company()
+    then
+        float coef = calcCoef(tariffPlan.isOnlyHome());
+        float cost = calcTheCost(tariffPlan, coef);
+        interaction.printlnTheCost(consumer, cost);
+end
+
+function Float calcTheCost(TariffPlan tariffPlan, Float coef2) {
+    int coef = 5;
+    Float rate = (tariffPlan.getGigabyte() * 2)
+                    + (tariffPlan.getMinuteOnSame() / coef)
+                    + (tariffPlan.getMinuteOnDifferent() / coef)
+                    + (tariffPlan.getMessages() / coef);
+    rate *= coef2;
+    return rate;
+}
+
+function Float calcCoef(Boolean isOnlyHome) {
+    if (isOnlyHome) return 1F;
+    else return 2F;
+}

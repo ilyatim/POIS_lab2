@@ -1,0 +1,30 @@
+Û15:14:53.648 [Test worker] INFO org.kie.api.internal.utils.ServiceDiscoveryImpl - Loading kie.conf from  jar:file:/C:/Users/Alexey/.gradle/caches/modules-2/files-2.1/org.drools/drools-compiler/7.20.0.Final/e10adbb09273d780fba685387dd3d75ca17f2c5e/drools-compiler-7.20.0.Final.jar!/META-INF/kie.conf in classloader jdk.internal.loader.ClassLoaders$AppClassLoader@8bcc55f
+ñ15:14:53.660 [Test worker] INFO org.kie.api.internal.utils.ServiceDiscoveryImpl - Adding Service org.drools.compiler.kie.builder.impl.KieServicesImpl
+
+•15:14:53.664 [Test worker] INFO org.kie.api.internal.utils.ServiceDiscoveryImpl - Adding Service org.drools.compiler.builder.impl.KnowledgeBuilderFactoryServiceImpl
+
+Î15:14:53.665 [Test worker] INFO org.kie.api.internal.utils.ServiceDiscoveryImpl - Loading kie.conf from  jar:file:/C:/Users/Alexey/.gradle/caches/modules-2/files-2.1/org.drools/drools-core/7.20.0.Final/5f34f6b3c75f939b46e8295aed5a2f4e0c8a93a9/drools-core-7.20.0.Final.jar!/META-INF/kie.conf in classloader jdk.internal.loader.ClassLoaders$AppClassLoader@8bcc55f
+î15:14:53.666 [Test worker] INFO org.kie.api.internal.utils.ServiceDiscoveryImpl - Adding Service org.drools.core.io.impl.ResourceFactoryServiceImpl
+
+ô15:14:53.667 [Test worker] INFO org.kie.api.internal.utils.ServiceDiscoveryImpl - Adding Service org.drools.core.marshalling.impl.MarshallerProviderImpl
+
+ë15:14:53.668 [Test worker] INFO org.kie.api.internal.utils.ServiceDiscoveryImpl - Adding Service org.drools.core.concurrent.ExecutorProviderImpl
+
+Í15:14:53.668 [Test worker] INFO org.kie.api.internal.utils.ServiceDiscoveryImpl - Loading kie.conf from  jar:file:/C:/Users/Alexey/.gradle/caches/modules-2/files-2.1/org.kie/kie-internal/7.20.0.Final/271973deb7e2334c5bd78b82f8388045f5c4905d/kie-internal-7.20.0.Final.jar!/META-INF/kie.conf in classloader jdk.internal.loader.ClassLoaders$AppClassLoader@8bcc55f
+ç15:14:53.670 [Test worker] INFO org.kie.api.internal.utils.ServiceDiscoveryImpl - Adding Service org.kie.internal.services.KieAssemblersImpl
+
+ã15:14:53.670 [Test worker] INFO org.kie.api.internal.utils.ServiceDiscoveryImpl - Adding Service org.kie.internal.services.KieRuntimesImpl
+
+ä15:14:53.671 [Test worker] INFO org.kie.api.internal.utils.ServiceDiscoveryImpl - Adding Service org.kie.internal.services.KieWeaversImpl
+
+ä15:14:53.672 [Test worker] INFO org.kie.api.internal.utils.ServiceDiscoveryImpl - Adding Service org.kie.internal.services.KieBeliefsImpl
+
+t15:14:54.472 [Test worker] DEBUG org.drools.core.common.DefaultAgenda - State was INACTIVE is now FIRING_ALL_RULES
+Consumer - Alexey, age - 28
+Current plan name - Efficient
+Parameters: gigabyte - 30.0
+"Minute on the same numbers - 200
+'Minute on the different numbers - 200
+!Total cost of your plan - 520.0
+s15:14:54.513 [Test worker] DEBUG org.drools.core.common.DefaultAgenda - State was FIRING_ALL_RULES is now HALTING
+k15:14:54.513 [Test worker] DEBUG org.drools.core.common.DefaultAgenda - State was HALTING is now INACTIVE
